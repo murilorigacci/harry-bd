@@ -2,18 +2,23 @@
   "name": "harry-bd",
   "version": "1.0.0",
   "main": "server.js",
-  "type":"module",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon server.js"
+    "dev": "nodemon server.js",
+    "studio": "npx prisma studio"
   },
-  "keywords": ["Senai, Back End"],
+  "keywords": [
+    "Senai, Back End"
+  ],
   "author": "Rigacci",
   "license": "MIT",
   "description": "Conexão de Banco de Dados com Node.js",
   "dependencies": {
+    "@prisma/client": "^6.16.3",
     "dotenv": "^17.2.3",
     "express": "^5.1.0",
-    "nodemon": "^3.1.10"
+    "nodemon": "^3.1.10",
+    "prisma": "^6.16.3"
   }
 }
